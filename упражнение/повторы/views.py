@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 
 
 def index(request):
@@ -12,5 +12,5 @@ def about(request):
 
 
 def location(request):
-    return HttpResponse("<h4>Наш адрес и местонахождения:</h4>")
+    return render(request, "повторы/location.html")
 
