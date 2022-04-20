@@ -14,3 +14,7 @@ def about(request):
 def location(request):
     return render(request, "повторы/location.html")
 
+
+
+def ourstaff(request):
+    return render(request, "повторы/ourstaff.html")
