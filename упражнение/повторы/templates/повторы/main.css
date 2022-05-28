@@ -15,7 +15,7 @@ background-color:#8BEB29 ;
 
 
 .red{
-background-color:#D229EB ;
+background-color:#EB29E8 ;
 
 }
 
@@ -32,3 +32,30 @@ box-shadow:30px 30px 20px black;
 
 }
 
+
+.staff{
+transform:scale(1);
+transition:5s all;
+}
+
+
+.staff:hover{
+transform:rotate(240deg)scale(0.5);
+}
+
+
+
+.staff2{
+transform:scale(1);
+transition:5s all;
+}
+
+
+.staff2:hover{
+transform:rotate(140deg)scale(0.5);
+}
+
+.round{
+box-shadow:30px 30px 27px yellow;
+
+}
