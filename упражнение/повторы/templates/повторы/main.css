@@ -59,3 +59,11 @@ transform:rotate(140deg)scale(0.5);
 box-shadow:30px 30px 27px yellow;
 
 }
+
+
+.kiev{
+border:2px solid black;
+box-shadow:30px 30px 27px black;
+margin-right:180px;
+
+}
